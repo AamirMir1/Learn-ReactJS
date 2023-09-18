@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  transition: background-color 0.4s;
+}
+.todo{
+  width: 40vw;
+  margin: auto;
+  border-radius: 10px;
+  transition: background-color 0.4s;
+  /* overflow: hidden; */
+}
+.title{
+  text-align: center;
+  padding: 15px 0px;
+}
+.darkOrLight{
+  width: 70px;
+  height: 30px;
+  border-radius: 20px;
+  position: absolute;
+  cursor: pointer; 
+  transition: all 0.4s;
+  top: 17px;
+  right: 50px;
+}
+.dOrLight{
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  position: relative;
+  transition: all 0.4s;
+}
+.title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 3px;
+  padding: 40px 0px;
+}
+input{
+  width: 80%;
+  font-size: 17px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.addbtn{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+.delete-btn{
+  font-size: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.modify-btn{
+  font-size: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+.items{
+  margin-top: 25px;
+}
+.aboutAdd{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.error{
+  margin: 5px 2px;
+}
+

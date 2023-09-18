@@ -1,0 +1,15 @@
+button{
+  padding: 6px 15px;
+  display: inline-block;
+  margin: 0px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buttons{
+  display: block;
+  text-align: center;
+}
+p{
+  text-align: center;
+  font-size: 4rem;
+}

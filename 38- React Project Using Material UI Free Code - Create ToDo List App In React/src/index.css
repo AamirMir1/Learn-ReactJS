@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Euphoria+Script&family=Permanent+Marker&family=Rouge+Script&display=swap');
+
+body{
+  font-family: 'Permanent Marker', cursive;
+}
+.todo{
+  background-color: antiquewhite;
+  width: 40vw;
+  height: 80vh;
+  margin: auto;
+  border-radius: 15px;
+  background-color: #ab96db;
+  box-shadow: 1px 1px 20px 0px #ab96db;
+}
+.title{
+  text-align: center;
+  background-color: #c6fad6;
+  border-top-left-radius: 10px;
+  padding: 15px 0px;
+  border-top-right-radius: 10px;
+  color: #ab96db;
+  letter-spacing: 5px;
+  border-bottom: 20px solid #8f7ac0;
+}
+
+.inputVal{
+  width: 80%;
+  margin: 0px 15px;
+  font-size: 20px;
+  border: none;
+  background: transparent;
+  border-bottom: 5px solid antiquewhite;
+  padding: 10px 0px;
+}
+.inputVal::placeholder{
+  color: white;
+}
+.addBtn{
+  padding: 20px;
+  background-color: blue;
+}
+li{
+  list-style: none;
+  font-size: 30px;
+  margin: 0px 20px;
+  color: blue;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+ol{
+  display: flex;
+}
+.hov:hover{
+  color: red;
+}
+.add:hover{
+  color: yellow;
+}
+/* #c6fad6 #ab96db #ffffd3*/

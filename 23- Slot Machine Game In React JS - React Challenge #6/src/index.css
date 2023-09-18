@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: lightpink
+}
+.title{
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  letter-spacing: 5px;
+}
+.getStyle{
+  padding: 10px 0px;
+}
+hr{
+  background-color: red;
+  height: 1px ;
+  border: none;
+}

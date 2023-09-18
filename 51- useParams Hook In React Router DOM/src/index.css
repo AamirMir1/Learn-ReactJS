@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+li{
+  list-style: none;
+}
+a{
+  border-radius: 7px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+
+}
+a:hover{
+  color: black;
+  background-color: white;
+}
+nav{
+  background-color: gray;
+}
+.active{
+  color: lightgray
+}
